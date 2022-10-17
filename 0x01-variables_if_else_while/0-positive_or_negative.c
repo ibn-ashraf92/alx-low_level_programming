@@ -17,10 +17,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-	printf("%c is positive\n", n);
+	printf("%u is positive\n", n);
 	else if (n == 0)
-	printf("%c is zero\n", n);
+	printf("%u is zero\n", n);
 	else if (n > 0)
-	printf("%c is negative\n", n);
+	printf("%u is negative\n", n);
 	return (0);
 }
