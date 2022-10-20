@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 *main - entry pint
-*Description: (ust putchar only 3 times to print alphabetic lowercase then uppercase)
+*Description: (ust putchar only to print alphabetic lowercase then uppercase)
 *Return:0
 *
 */
@@ -22,5 +22,5 @@ while (s <= 'Z')
 	putchar(s);
 	s++;
 	}
-	putchar('\n')
+	putchar('\n');
 }
